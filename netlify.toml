@@ -1,0 +1,5 @@
+# Netlify — régénère data.js depuis content/site.json à chaque déploiement,
+# puis publie le site (racine du dépôt).
+[build]
+  command = "node build.js"
+  publish = "."

@@ -1,0 +1,62 @@
+{
+  "profile": {
+    "name": "Jacques Micholier",
+    "role": "Brand & Marketing Manager",
+    "location": "Saint-Étienne, France",
+    "email": "jacques.micholier@gmail.com",
+    "phone": "+33 6 95 58 53 89",
+    "linkedin": "#",
+    "cv": "#",
+    "availability": "Disponible · Q4 2026",
+    "experience": "8 ans",
+    "languages": "FR · EN"
+  },
+  "hero": {
+    "eyebrow": "Portfolio",
+    "subtitle": "Je construis des marques qui",
+    "subtitleAccent": "durent.",
+    "aside": "5 ans chez Schär — leader européen du sans-gluten. Aujourd'hui, refonte de marque chez Ludinnov, jeux cognitifs. Cap sur le gaming et le divertissement.",
+    "asideLabel": "Bio — courte version"
+  },
+  "about": {
+    "paragraphs": [
+      "Passionné par le marketing, j'aime travailler les marques dans tous leurs détails : du positionnement et de l'identité jusqu'aux campagnes et aux lancements produits.",
+      "J'ai construit cette expérience dans des secteurs exigeants — l'agroalimentaire premium chez Schär, leader européen du sans-gluten, puis les dispositifs médicaux — avant de rejoindre Ludinnov, où j'accompagne le développement de marques sur de nouveaux marchés.",
+      "Ce qui me motive : les projets concrets, où la stratégie se voit et se vit. Et aujourd'hui, je regarde vers des univers plus proches du divertissement et du lifestyle."
+    ],
+    "timeline": [
+      {
+        "period": "2024 →",
+        "role": "Marketing Manager",
+        "org": "Ludinnov",
+        "note": "Jeux cognitifs"
+      },
+      {
+        "period": "2018 — 2024",
+        "role": "Brand Manager",
+        "org": "Schär",
+        "note": "Food · gluten-free"
+      },
+      {
+        "period": "2017 — 2018",
+        "role": "Junior Product Manager",
+        "org": "Gibaud",
+        "note": "Dispositifs médicaux · alternance"
+      },
+      {
+        "period": "À COMPLÉTER",
+        "role": "Assistant Category Manager",
+        "org": "Pierre Martinet",
+        "note": ""
+      }
+    ]
+  },
+  "contact": {
+    "subtitle": ""
+  },
+  "footer": {
+    "copyright": "© 2026 Jacques Micholier",
+    "place": "Saint-Étienne — Lyon",
+    "signature": "Conçu à la main. HTML & encre."
+  }
+}

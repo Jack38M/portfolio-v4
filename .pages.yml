@@ -1,0 +1,80 @@
+media:
+  input: uploads
+  output: uploads
+
+content:
+  - name: site
+    label: Contenu du site
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: profile
+        label: Profil
+        type: object
+        fields:
+          - { name: name, label: Nom, type: string }
+          - { name: role, label: Poste, type: string }
+          - { name: location, label: Localisation, type: string }
+          - { name: email, label: Email, type: string }
+          - { name: phone, label: Téléphone, type: string }
+          - name: linkedin
+            label: URL LinkedIn
+            type: string
+            description: "Lien complet, ex. https://www.linkedin.com/in/…"
+          - name: cv
+            label: Lien CV (PDF)
+            type: string
+            description: "URL du CV en PDF, ou laisser # si pas encore prêt"
+          - { name: availability, label: Disponibilité, type: string }
+          - { name: experience, label: Expérience, type: string }
+          - { name: languages, label: Langues, type: string }
+
+      - name: hero
+        label: Accueil — bloc d'en-tête
+        type: object
+        fields:
+          - { name: eyebrow, label: Mention du haut, type: string }
+          - name: subtitle
+            label: Phrase d'accroche
+            type: string
+            description: "Sous le grand titre. Laisser vide (ainsi que le mot mis en avant) pour masquer la phrase."
+          - name: subtitleAccent
+            label: Mot mis en avant
+            type: string
+            description: "Dernier mot, en couleur. Ex. « durent. »"
+          - { name: aside, label: Bio courte, type: text }
+          - { name: asideLabel, label: Libellé de la bio, type: string }
+
+      - name: about
+        label: À propos
+        type: object
+        fields:
+          - name: paragraphs
+            label: Paragraphes
+            type: text
+            list: true
+            description: "Un bloc par paragraphe."
+          - name: timeline
+            label: Parcours
+            type: object
+            list: true
+            fields:
+              - { name: period, label: Période, type: string }
+              - { name: role, label: Poste, type: string }
+              - { name: org, label: Entreprise, type: string }
+              - { name: note, label: Note, type: string }
+
+      - name: contact
+        label: Contact
+        type: object
+        fields:
+          - { name: subtitle, label: Sous-titre, type: text }
+
+      - name: footer
+        label: Pied de page
+        type: object
+        fields:
+          - { name: copyright, label: Copyright, type: string }
+          - { name: place, label: Lieu, type: string }
+          - { name: signature, label: Signature, type: string }
